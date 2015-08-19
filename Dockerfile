@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM buildpack-deps:trusty
 
-MAINTAINER "Dylan Lindgren" <dylan.lindgren@gmail.com>
+MAINTAINER "Travis Miller" <puckbag@gmail.com>
 
 # Install PHP-CLI using APT
 RUN apt-get update -y && \
